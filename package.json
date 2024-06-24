@@ -1,0 +1,20 @@
+{
+  "name": "simple-event",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=dev node --trace-warnings dist/index.js",
+    "start:dev": "NODE_ENV=dev node --trace-warnings src/index.js",
+    "build": "cp -R src/* dist/",
+    "clean": "rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
